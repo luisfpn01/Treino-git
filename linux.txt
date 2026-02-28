@@ -42,7 +42,7 @@
 - useradd e userdel	→ Adiciona ou remove um usuário
 - passwd	→ Define uma nova senha para um usuário
 
- ## Comandos de monitoramento do sistema e processos
+## Comandos de monitoramento do sistema e processos
 - df →	Mostra o uso do disco
 - du	→ Mostra o tamanho de uma pasta e do seu conteúdo
 - top	→ Exibe processos em execução e consumo de recursos
