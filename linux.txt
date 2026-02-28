@@ -1,7 +1,18 @@
-cd - mudar diretorio
-pwd - mostrar diretorio atual
-mkdir - criar pasta
-chmod - alterar permissoes
-ls - listar arquivos
-locate - procurar arquivos
-find - procurar arquivos e pastas
+# Comandos Linux Importantes
+
+## Navegação
+- ls → listar arquivos
+- cd → mudar diretório
+- pwd → mostrar diretório atual
+- mkdir → criar pasta
+- locate → procurar arquivos
+- find → procurar arquivos e pastas
+
+## Usuário
+- whoami → usuário atual
+- id → informações do usuário
+- chmod → alterar permissoes
+
+## Rede
+- netstat → conexões ativas
+- nmap → scanner de portas
