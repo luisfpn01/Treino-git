@@ -1,18 +1,73 @@
-# Comandos Linux Importantes
+! Comandos Linux Importantes !
 
-## Navegação
+## Navegação em Arquivos e Pastas
 - ls → listar arquivos
 - cd → mudar diretório
 - pwd → mostrar diretório atual
-- mkdir → criar pasta
 - locate → procurar arquivos
 - find → procurar arquivos e pastas
 
-## Usuário
-- whoami → usuário atual
-- id → informações do usuário
-- chmod → alterar permissoes
+## Comandos de operações com arquivos e pastas
+- mkdir → Cria um diretório
+- rmdir	→ Remove um diretório
+- rm → Exclui um arquivo
+- cp → Copia um arquivo para outro local
+- mv → Move ou renomeia um arquivo ou pasta
+- touch	→ Cria um arquivo vazio
+- file	→ Mostra o tipo de um arquivo
+- zip e unzip	→ Compacta ou extrai um arquivo ZIP
+- tar	→ Agrupa arquivos em um tarball
+- nano, vi e jed	→ Abre um editor de texto
+- cat	→ Exibe o conteúdo de um arquivo
+- grep	→ Encontra uma linha específica em um arquivo
+- sed	→ Busca e substitui um padrão em um arquivo
+- head	→ Mostra as primeiras linhas de um arquivo
+- tail	→ Mostra as últimas linhas de um arquivo
+- awk	→ Busca e manipula padrões em um arquivo
+- sort	→ Reorganiza o conteúdo de um arquivo
+- cut	→ Seleciona e imprime partes específicas de um arquivo
+- diff	→ Compara o conteúdo de arquivos
+- tee	→ Envia a saída de um comando para um arquivo e para o terminal
+- echo	→ Imprime texto no terminal
+- ln	→ Cria links entre arquivos ou pastas
+- alias e unalias	→ Cria ou remove um apelido para um comando ou programa
+- apt e dnf	→ Gerencia repositórios e pacotes do sistema
+
+## Comandos de gerenciamento de usuários e permissões
+- sudo	→ Executa um comando como superusuário
+- su	→ Troca de usuário
+- whoami	→ Mostra o usuário atual
+- chmod	→ Altera permissões de um arquivo ou pasta
+- chown	→ Altera o dono de um arquivo ou pasta
+- useradd e userdel	→ Adiciona ou remove um usuário
+- passwd	→ Define uma nova senha para um usuário
+
+ ## Comandos de monitoramento do sistema e processos
+- df →	Mostra o uso do disco
+- du	→ Mostra o tamanho de uma pasta e do seu conteúdo
+- top	→ Exibe processos em execução e consumo de recursos
+- htop	→ Lista e gerencia processos (interface mais amigável)
+- ps	→ Mostra um resumo dos processos em um momento específico
+- uname	→ Exibe informações do sistema
+- time	→ Mede o tempo de execução de um comando ou programa
+- systemctl	→ Gerencia serviços
+- watch	→ Executa um comando repetidamente
+- jobs	→ Mostra programas em execução no shell atual
+- kill	→ Encerra um processo
+- shutdown	→ Desliga o sistema
+- history	→ Mostra comandos executados anteriormente
+- man	→ Abre o manual de outro comando
+- cal	→ Abre um calendário
 
 ## Rede
-- netstat → conexões ativas
-- nmap → scanner de portas
+- hostname	→ Mostra o nome do host do sistema
+- ping	→ Envia pacotes para um destino
+- wget	→ Baixa arquivos de uma URL
+- curl	→ Transfere dados de/para uma URL
+- ip	→ Gerencia configurações de rede do sistema
+- netstat	→ Exibe informações de rede
+- traceroute	→ Mostra o caminho do pacote até o destino
+- nslookup	→ Consulta informações de DNS
+- dig	→ Exibe detalhes de um domínio
+- scp	→ Copia arquivos pela rede
+- rsync	→ Sincroniza arquivos entre dois sistemas pela rede
