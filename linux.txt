@@ -1,0 +1,4 @@
+cd - mudar diretorio
+pwd - mostrar diretorio atual
+mkdir - criar pasta
+chmod - alterar permissoes
