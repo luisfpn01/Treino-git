@@ -2,3 +2,5 @@ cd - mudar diretorio
 pwd - mostrar diretorio atual
 mkdir - criar pasta
 chmod - alterar permissoes
+ls - listar arquivos
+ls - listar arquivos
